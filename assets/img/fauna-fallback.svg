@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustração de fauna brasileira</title>
+  <desc id="desc">Animal silvestre em meio a folhagens, em uma página ilustrada de caderno de campo.</desc>
+  <defs>
+    <linearGradient id="paper" x2="0" y2="1">
+      <stop stop-color="#d7c99e"/>
+      <stop offset="1" stop-color="#8d9b65"/>
+    </linearGradient>
+    <linearGradient id="fur" x2=".8" y2="1">
+      <stop stop-color="#bd985b"/>
+      <stop offset="1" stop-color="#765437"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="560" fill="url(#paper)"/>
+  <path d="M0 405c95-82 142-47 219-82 97-44 165-4 253-47 87-42 163-34 248 12v272H0z" fill="#536c45"/>
+  <path d="M0 466c143-69 250-24 360-63 123-43 232-32 360 19v138H0z" fill="#344d39"/>
+  <g fill="#718652" stroke="#304b39" stroke-width="6">
+    <path d="M70 369c-38-104-13-202 42-259 11 90 3 175-42 259z"/>
+    <path d="M97 365c12-106 77-185 151-205-39 84-84 151-151 205z"/>
+    <path d="M630 385c-43-96-30-188 19-250 21 85 22 166-19 250z"/>
+    <path d="M600 390c17-96 78-159 145-177-38 73-82 131-145 177z"/>
+  </g>
+  <g fill="none" stroke="#bdc486" stroke-width="4" opacity=".65">
+    <path d="M81 394c-1-88 18-164 31-250M107 389c30-86 71-137 119-188M616 399c10-86 22-147 36-215M594 405c38-67 81-110 128-145"/>
+  </g>
+  <g stroke="#493d2d" stroke-width="9" stroke-linejoin="round">
+    <path d="M205 334c20-77 93-118 196-112 89 5 151 49 161 105l-34 40-12 96h-42l-12-80-91 2-17 79h-43l-2-91-49-11-39 91h-39l20-103c-35 0-55-4-73-16z" fill="url(#fur)"/>
+    <path d="M505 273c17-39 51-58 86-47l33 30 31 18-9 34-50 12-32 34-29-28-42-6z" fill="#a98553"/>
+    <path d="M548 234l-7-39 37 23M600 236l28-33-1 52" fill="#765437"/>
+    <path d="M634 274l40 11-36 15" fill="#2b2922"/>
+    <circle cx="613" cy="259" r="6" fill="#1d211d" stroke="none"/>
+  </g>
+  <g fill="#d7c99e" opacity=".78">
+    <path d="M275 280c9-16 21-16 28 0-7 14-19 14-28 0zM329 254c9-16 21-16 28 0-7 14-19 14-28 0zM386 271c9-16 21-16 28 0-7 14-19 14-28 0zM443 286c9-16 21-16 28 0-7 14-19 14-28 0z"/>
+  </g>
+  <path d="M26 34h668v492H26z" fill="none" stroke="#f0e5bf" stroke-width="3" opacity=".72"/>
+  <path d="M43 53h176M501 53h176M43 507h124M553 507h124" stroke="#e9dcae" stroke-width="3" opacity=".7"/>
+</svg>

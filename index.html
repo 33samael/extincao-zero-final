@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Extinção Zero</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/field-identity.css">
+    <link rel="stylesheet" href="css/ux-foundation.css">
+</head>
+
+<body class="field-identity">
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo"><img src="assets/img/logo.svg" alt="Extinção Zero"></a>
+            <nav class="nav-menu" aria-label="Navegação principal">
+                <a href="index.html" class="nav-link">Início</a>
+                <a href="app.html" class="nav-link">O App</a>
+                <div class="nav-explore">
+                    <button class="nav-link nav-dropdown" type="button" aria-expanded="false" aria-controls="explore-menu">Explorar <i class="bi bi-chevron-down"></i></button>
+                    <div class="nav-submenu" id="explore-menu">
+                        <a class="nav-link" href="dashboard.html"><i class="bi bi-bar-chart-line"></i> Dashboard</a>
+                        <a class="nav-link" href="biomas.html"><i class="bi bi-tree"></i> Biomas</a>
+                        <a class="nav-link" href="mostruario.html"><i class="bi bi-journal-richtext"></i> Mostruário</a>
+                    </div>
+                </div>
+                <a href="preservar.html" class="nav-link">Preservar</a>
+                <a href="loja.html" class="nav-link">Loja</a>
+            </nav>
+            <div class="nav-actions">
+                <a class="nav-action cart-trigger" href="loja.html#cart" aria-label="Abrir carrinho na loja"><i class="bi bi-cart"></i><span class="cart-count" data-cart-count>0</span></a>
+                <button class="nav-button" id="theme-button" type="button" aria-label="Alterar tema"><i class="bi bi-sun"></i></button>
+            </div>
+            <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-navigation"><i class="bi bi-list"></i></button>
+        </div>
+    </header>
+
+    <section class="hero">
+
+    <div class="hero-container">
+
+        <div class="hero-left">
+
+            <!-- TAG -->
+            <div class="hero-tag">
+                <span class="tag-line"></span>
+
+                <span class="tag-title">
+                    GUIA DE CAMPO DIGITAL
+                </span>
+
+                <span class="tag-divider"></span>
+
+                <span class="tag-info">
+                    FATEC • 2026
+                </span>
+            </div>
+
+            <!-- TÍTULO -->
+            <h1>
+                Conhecer é o<br>
+                <span>primeiro passo</span><br>
+                para preservar.
+            </h1>
+
+            <!-- DESCRIÇÃO -->
+            <p class="hero-description">
+                O Extinção Zero é uma experiência digital sobre os
+                animais ameaçados e os biomas brasileiros com dados
+                reais, histórias e interação para transformar
+                conhecimento em preservação.
+            </p>
+
+            <!-- BOTÕES -->
+            <div class="hero-buttons">
+
+                <a href="app.html" class="btn-primary">
+                    Conheça o aplicativo
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+                <a href="app.html#jornada" class="btn-secondary problem-button-2">
+                    Explorar o protótipo
+                    <i class="bi bi-play-fill"></i>
+                </a>
+
+            </div>
+
+            <!-- LOJAS -->
+            <div class="store-buttons">
+
+                <div class="store-button store-status">
+                    <i class="bi bi-play-fill"></i>
+
+                    <span>
+                        <small>EM DESENVOLVIMENTO</small>
+                        Google Play
+                    </span>
+                </div>
+
+                <div class="store-button store-status">
+                    <i class="bi bi-apple"></i>
+
+                    <span>
+                        <small>AINDA INDISPONÍVEL</small>
+                        App Store
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+    <div class="phone">
+
+        <!-- TELA DO CELULAR -->
+        <div class="phone-screen">
+
+            <div class="phone-top">
+                <span>09:41</span>
+                <span>◉ 100%</span>
+            </div>
+
+            <div class="app-logo">
+                <img src="assets/img/isotipo.svg" alt="Extinção Zero">
+            </div>
+
+            <div class="profile">$.$</div>
+
+            <div class="phone-title">
+                <small>SEU CAMPO COMEÇA AQUI</small>
+
+                <h3>
+                    O que vive<br>
+                    <span>ao seu redor?</span>
+                </h3>
+            </div>
+
+            <!-- IMAGEM DO ANIMAL -->
+            <div class="animal-image">
+                <img
+                    src="assets/img/lobo-guara.png"
+                    alt="Lobo-guará"
+                >
+
+                <span class="rare">
+                    • avistamento raro
+                </span>
+            </div>
+
+            <!-- PROGRESSO -->
+            <div class="progress">
+                <span></span>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+
+            <!-- ESPÉCIE -->
+            <div class="species">
+                <small>espécie do dia</small>
+
+                <h4>Lobo-guará</h4>
+
+                <p>Chrysocyon brachyurus</p>
+            </div>
+
+            <!-- BOTÃO -->
+            <button class="explore-button">
+                Explorar espécie
+                <i class="bi bi-arrow-right"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ELEMENTO FLUTUANTE 1 -->
+
+    <div class="floating-tag biome-tag">
+        <span>●</span>
+        bioma: cerrado
+    </div>
+
+
+    <!-- ELEMENTO FLUTUANTE 2 -->
+
+    <div class="floating-tag species-tag">
+        <i class="bi bi-stars"></i>
+        04 / 12 espécies
+    </div>
+
+</div>
+
+    </div>
+
+</section>
+
+<!-- ========================================
+     FAIXA DE ESPÉCIES + CARROSSEL
+======================================== -->
+
+<section class="species-carousel">
+
+    <!-- FAIXA ANIMADA -->
+    <div class="species-marquee">
+        <div class="marquee-track">
+
+            <span>MATA ATLÂNTICA</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>LOBO-GUARÁ</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>PANTANAL</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>TARTARUGA-DE-PENTE</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>CAATINGA</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>GAVIÃO-REAL</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>PAMPA</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>TUCANO-TOCO</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <!-- repetição para o loop infinito -->
+            <span>MATA ATLÂNTICA</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>LOBO-GUARÁ</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>PANTANAL</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>TARTARUGA-DE-PENTE</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>CAATINGA</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>GAVIÃO-REAL</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>PAMPA</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>TUCANO-TOCO</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+        </div>
+    </div>
+
+
+    <!-- CARROSSEL -->
+    <div class="field-carousel" role="region" aria-roledescription="carrossel" aria-label="Destaques sobre espécies, biomas e preservação" aria-live="off">
+
+        <!-- SLIDE 1 -->
+        <div class="field-slide active" role="group" aria-roledescription="slide" aria-label="1 de 3: Onça-pintada">
+            <img src="assets/img/onca.jpg" alt="Onça-pintada">
+
+            <div class="slide-overlay"></div>
+
+            <div class="slide-content">
+                <span>ESPÉCIE EM FOCO</span>
+
+                <h2>Onça-pintada</h2>
+
+                <p>
+                    O maior felino das Américas perdeu quase metade de seu
+                    território histórico. Conhecer sua história é o primeiro
+                    passo para protegê-la.
+                </p>
+
+                <a href="mostruario.html" class="slide-button">
+                    Ver no mostruário
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- SLIDE 2 -->
+        <div class="field-slide" role="group" aria-roledescription="slide" aria-label="2 de 3: Amazônia">
+            <img src="assets/img/amazonia.jpg" alt="Amazônia">
+
+            <div class="slide-overlay"></div>
+
+            <div class="slide-content">
+                <span>BIOMA EM FOCO</span>
+
+                <h2>Amazônia</h2>
+
+                <p>
+                    Um em cada dez espécies conhecidas do planeta vive aqui.
+                    A maior floresta tropical do mundo regula o clima de todo
+                    o continente.
+                </p>
+
+                <a href="biomas.html" class="slide-button">
+                    Explorar biomas
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- SLIDE 3 -->
+        <div class="field-slide" role="group" aria-roledescription="slide" aria-label="3 de 3: Queimadas">
+            <img src="assets/img/queimadas.jpg" alt="Queimadas">
+
+            <div class="slide-overlay"></div>
+
+            <div class="slide-content">
+                <span>AMEAÇA & ATITUDE</span>
+
+                <h2>Queimadas: o alerta é agora</h2>
+
+                <p>
+                    Em 2020, cerca de 30% do Pantanal queimou. Pequenas atitudes,
+                    como denunciar focos de incêndio, salvam ecossistemas inteiros.
+                </p>
+
+                <a href="preservar.html" class="slide-button">
+                    Como preservar
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- CONTROLES -->
+        <div class="carousel-controls">
+
+            <div class="carousel-dots" role="group" aria-label="Selecionar destaque">
+                <button class="carousel-dot active" type="button" aria-label="Mostrar destaque 1 de 3" aria-pressed="true"></button>
+                <button class="carousel-dot" type="button" aria-label="Mostrar destaque 2 de 3" aria-pressed="false"></button>
+                <button class="carousel-dot" type="button" aria-label="Mostrar destaque 3 de 3" aria-pressed="false"></button>
+            </div>
+
+            <div class="carousel-buttons">
+                <button id="carousel-pause" type="button" aria-label="Pausar rotação dos destaques">
+                    <i class="bi bi-pause"></i>
+                </button>
+
+                <button id="carousel-prev" type="button" aria-label="Destaque anterior">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+
+                <button id="carousel-next" type="button" aria-label="Próximo destaque">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+     <!-- FAIXA ANIMADA 2 -->
+    <div class="species-marquee species-marquee-bottom">
+        <div class="marquee-track">
+
+            <span>MATA ATLÂNTICA</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>LOBO-GUARÁ</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>PANTANAL</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>TARTARUGA-DE-PENTE</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>CAATINGA</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>GAVIÃO-REAL</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>PAMPA</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>TUCANO-TOCO</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <!-- repetição para o loop infinito -->
+            <span>MATA ATLÂNTICA</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>LOBO-GUARÁ</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>PANTANAL</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>TARTARUGA-DE-PENTE</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>CAATINGA</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>GAVIÃO-REAL</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>PAMPA</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            <span>TUCANO-TOCO</span>
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+        </div>
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SEÇÃO — O PROBLEMA
+========================= -->
+
+<section class="problem-section" id="problema">
+
+    <div class="problem-container">
+
+        <!-- =========================
+             LADO ESQUERDO
+        ========================== -->
+
+        <div class="problem-content">
+
+            <div class="problem-label">
+                <span class="label-dot"></span>
+                O PROBLEMA
+            </div>
+
+            <h2>
+                A crise silenciosa da
+                <span>biodiversidade brasileira</span>
+            </h2>
+
+            <p class="problem-highlight">
+                O Brasil abriga cerca de 13% de todas as espécies do
+                planeta, e lidera listas de fauna ameaçada.
+            </p>
+
+            <p>
+                Mais de 1.200 espécies de animais brasileiros estão
+                oficialmente ameaçadas de extinção. Desmatamento,
+                queimadas, tráfico de animais silvestres e mudanças
+                climáticas avançam sobre habitats que levaram milênios
+                para se formar. Muitas dessas espécies podem desaparecer
+                antes mesmo de serem estudadas pela ciência.
+            <br>
+            <br>
+                O Extinção Zero nasceu na Fatec Carapicuíba para mudar
+                essa equação: transformar dados oficiais em experiências
+                digitais que aproximam as pessoas da fauna brasileira.
+                Acreditamos que ninguém protege o que não conhece,
+                por isso, conhecer é o primeiro passo para preservar.
+            </p>
+
+            <a href="dashboard.html#painel-extincao" class="problem-button">
+                Exibir os dados
+                <i class="bi bi-arrow-right"></i>
+            </a>
+
+                <a href="https://salve.icmbio.gov.br/#/" class="btn-secondary problem-button-2">
+                <i class="bi bi-info-circle-fill"></i>
+                Saiba mais
+            </a>
+
+        </div>
+
+
+        <!-- =========================
+             LADO DIREITO
+        ========================== -->
+
+        <div class="problem-visual">
+
+            <!-- IMAGEM PRINCIPAL -->
+
+            <div class="main-animal">
+
+                <img
+                    src="assets/img/onca-problema.png"
+                    alt="Onça-pintada"
+                >
+
+            </div>
+
+
+            <!-- CARD SUPERIOR -->
+
+            <div class="animal-card animal-card-top">
+
+                <img
+                    src="assets/img/arara.png"
+                    alt="Arara-azul-grande"
+                >
+
+                <div class="animal-card-info">
+                    Arara-azul-grande · Pantanal
+                </div>
+
+            </div>
+
+
+            <!-- CARD INFERIOR -->
+
+            <div class="animal-card animal-card-bottom">
+
+                <img
+                    src="assets/img/mico.png"
+                    alt="Mico-leão-dourado"
+                >
+
+                <div class="animal-card-info">
+                    Mico-leão-dourado · Mata Atlântica
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     SEÇÃO — QUEM FAZ
+========================= -->
+
+<section class="team-section" id="equipe">
+
+    <div class="team-container">
+
+        <!-- CABEÇALHO -->
+
+        <div class="team-header">
+
+            <div class="team-label">
+                <span></span>
+                QUEM FAZ
+            </div>
+
+            <h2>Equipe</h2>
+
+            <p>
+                Estudantes da Fatec Carapicuíba unidos por uma missão:
+                usar tecnologia e design para defender a fauna brasileira.
+            </p>
+
+        </div>
+
+
+        <!-- INTEGRANTES -->
+
+        <div class="team-grid">
+
+
+            <!-- Stela -->
+
+            <article class="team-card">
+
+                <div class="team-photo">
+                    <img
+                        src="assets/img/stela.png"
+                        alt="Stela"
+                    >
+                </div>
+
+                <div class="team-info">
+
+                    <h3>Stela Causso</h3>
+
+                    <span class="team-role">
+                        UX/UI Designer & Gestora do Projeto
+                    </span>
+
+                    <p>
+                        Responsável pela gestão do projeto,
+                        identidade visual e prototipação das experiências.
+                    </p>
+
+                    <div class="team-socials">
+
+                        <a href="https://www.linkedin.com/in/st-causso/" class="team-social">
+                            <i class="bi bi-linkedin"></i>
+                            LinkedIn
+                        </a>
+
+                        <a href="https://github.com/harinC-7" class="team-social">
+                            <i class="bi bi-github"></i>
+                            GitHub
+                        </a>
+
+                        <a href="https://www.behance.net/st_causso" class="team-social">
+                            <i class="bi bi-behance"></i>
+                            Behance
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Samuel -->
+
+            <article class="team-card">
+
+                <div class="team-photo">
+                    <img src="assets/img/samuel.png" alt="Samuel">
+                </div>
+
+                <div class="team-info">
+
+                    <h3>Samuel Oliveira</h3>
+
+                    <span class="team-role">
+                        Desenvolvedor Full-Stack
+                    </span>
+
+                    <p>
+                        Responsável pela arquitetura de dados,
+                        desenvolvimento do site e do aplicativo.
+                    </p>
+
+                    <div class="team-socials">
+
+                        <a href="https://www.linkedin.com/in/samuel-olivr/" class="team-social">
+                            <i class="bi bi-linkedin"></i>
+                            LinkedIn
+                        </a>
+
+                        <a href="https://github.com/33samael" class="team-social">
+                            <i class="bi bi-github"></i>
+                            GitHub
+                        </a>
+
+                        <a href="https://www.behance.net/samuel-olivr" class="team-social">
+                            <i class="bi bi-behance"></i>
+                            Behance
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================================
+     GRID SYSTEM — REFERÊNCIAS
+======================================== -->
+
+<section class="grid-references">
+
+    <div class="grid-references-container">
+
+        <div class="grid-references-label">
+            <span>●</span>
+            TRANSPARÊNCIA
+        </div>
+
+        <div class="grid-blog">
+
+            <!-- SIDEBAR — 3 COLUNAS -->
+            <aside class="references-sidebar">
+
+                
+
+                <div class="sidebar-info">
+
+                    <span>CIENTÍFICOS</span>
+
+                    <h2>Dados e referências</h2>
+
+                    <p>
+                        Todo dado exibido no Extinção Zero possui fonte,
+                        data e contexto de coleta identificados.
+                    </p>
+
+                </div>
+
+                <div class="sidebar-image">
+                    <img src="assets/img/onca.jpg" alt="Onça-pintada">
+                </div>
+
+            </aside>
+
+
+            <!-- CONTEÚDO — 9 COLUNAS -->
+            <div class="references-content">
+
+                <div class="references-grid">
+
+                    <!-- REFERÊNCIA 1 -->
+                    <div class="reference-card">
+
+                        <div class="reference-icon">IU</div>
+
+                        <h3>IUCN Red List</h3>
+
+                        <p>
+                            A principal base global sobre o status de conservação
+                            das espécies, mantida pela União Internacional para
+                            a Conservação da Natureza.
+                        </p>
+
+                        <small>
+                            VERSÃO 2024-2 · ATUALIZADA EM 01/2024
+                        </small>
+
+                        <a href="https://www.iucnredlist.org/" target="_blank" rel="noopener noreferrer">
+                            Saiba mais
+                            <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+
+                    </div>
+
+
+                    <!-- REFERÊNCIA 2 -->
+                    <div class="reference-card">
+
+                        <div class="reference-icon">IC</div>
+
+                        <h3>ICMBio / MMA</h3>
+
+                        <p>
+                            Instituto Chico Mendes e Ministério do Meio Ambiente:
+                            Lista Nacional Oficial de Espécies da Fauna Ameaçadas
+                            (Portaria nº 148/2022).
+                        </p>
+
+                        <small>
+                            PORTARIA MMA Nº 148 · JUN/2022
+                        </small>
+
+                        <a href="https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/fauna-brasileira/lista-de-especies-ameacadas-de-extincao" target="_blank" rel="noopener noreferrer">
+                            Saiba mais
+                            <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+
+                    </div>
+
+
+                    <!-- REFERÊNCIA 3 -->
+                    <div class="reference-card">
+
+                        <div class="reference-icon">IB</div>
+
+                        <h3>IBGE</h3>
+
+                        <p>
+                            Instituto Brasileiro de Geografia e Estatística:
+                            mapa oficial de biomas e dados territoriais do Brasil.
+                        </p>
+
+                        <small>
+                            MAPA DE BIOMAS · 2019
+                        </small>
+
+                        <a href="https://www.ibge.gov.br/geociencias/informacoes-ambientais/vegetacao/15842-biomas.html" target="_blank" rel="noopener noreferrer">
+                            Saiba mais
+                            <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+
+                    </div>
+
+
+                    <!-- REFERÊNCIA 4 -->
+                    <div class="reference-card">
+
+                        <div class="reference-icon">SM</div>
+
+                        <h3>SOS Mata Atlântica</h3>
+
+                        <p>
+                            ONG referência no monitoramento da Mata Atlântica,
+                            com atlas anual dos remanescentes florestais em
+                            parceria com o INPE.
+                        </p>
+
+                        <small>
+                            ATLAS DOS REMANESCENTES · 2023
+                        </small>
+
+                        <a href="https://www.sosma.org.br/iniciativas/atlas-da-mata-atlantica/" target="_blank" rel="noopener noreferrer">
+                            Saiba mais
+                            <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+</section>
+
+
+<!-- CHAT IA — EXTINÇÃO ZERO -->
+<section class="ai-chat-section" id="chat-ia">
+    <div class="ai-chat-container">
+
+        <div class="ai-chat-intro">
+            <span class="ai-chat-eyebrow">
+                <span class="ai-chat-eyebrow-dot"></span>
+                CENTRAL DE INVESTIGAÇÃO
+            </span>
+
+            <h2>
+                A natureza tem perguntas.
+                <span>Nós ajudamos a responder.</span>
+            </h2>
+
+            <p>
+                Quer conhecer melhor o Extinção Zero? Converse com nosso
+                assistente e descubra mais sobre o projeto, os biomas
+                brasileiros e a preservação da fauna.
+            </p>
+        </div>
+
+        <div class="ai-chat-card">
+
+            <div class="ai-chat-header">
+                <div class="ai-chat-avatar" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                        <path d="M12 21s7-3.5 7-10V5l-7-3-7 3v6c0 6.5 7 10 7 10Z"
+                            stroke="currentColor" stroke-width="1.6"
+                            stroke-linejoin="round"/>
+                        <path d="M8.5 12.5 11 15l5-6"
+                            stroke="currentColor" stroke-width="1.6"
+                            stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+
+                <div class="ai-chat-header-info">
+                    <h3>Guia Extinção Zero</h3>
+                    <p>
+                        <span class="ai-chat-status-dot"></span>
+                        <span id="ai-chat-status">Preparando assistente...</span>
+                    </p>
+                </div>
+
+                <button type="button" class="ai-chat-clear"
+                    id="ai-chat-clear" aria-label="Limpar conversa"
+                    title="Limpar conversa">
+                    <svg viewBox="0 0 24 24" fill="none">
+                        <path d="M4 7h16M10 11v6m4-6v6M5 7l1 14h12l1-14M9 7V4h6v3"
+                            stroke="currentColor" stroke-width="1.6"
+                            stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>Limpar</span>
+                </button>
+            </div>
+
+            <div class="ai-chat-messages" id="ai-chat-messages"
+                role="log" aria-live="polite" aria-relevant="additions">
+
+                <div class="ai-chat-message ai-chat-message-bot">
+                    <div class="ai-chat-message-avatar" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1m0-12.8-2.1 2.1m-8.6 8.6-2.1 2.1"
+                                stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round"/>
+                            <circle cx="12" cy="12" r="5"
+                                stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+
+                    <div class="ai-chat-bubble">
+                        <p>Olá, investigador(a)! 🌿</p>
+                        <p>
+                            Sou o assistente do Extinção Zero. Posso explicar
+                            o projeto, falar sobre os biomas brasileiros e
+                            ajudar você a descobrir maneiras de proteger
+                            os animais ameaçados.
+                        </p>
+                        <p>Por onde vamos começar?</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="ai-chat-suggestions" id="ai-chat-suggestions">
+                <span>PERGUNTAS SUGERIDAS</span>
+
+                <div class="ai-chat-suggestion-list">
+                    <button type="button" class="ai-chat-suggestion"
+                        data-question="O que é o projeto Extinção Zero?">
+                        O que é o Extinção Zero?
+                        <span>↗</span>
+                    </button>
+
+                    <button type="button" class="ai-chat-suggestion"
+                        data-question="Quais são os seis biomas brasileiros e quais são suas características?">
+                        Quais são os biomas brasileiros?
+                        <span>↗</span>
+                    </button>
+
+                    <button type="button" class="ai-chat-suggestion"
+                        data-question="Como o aplicativo ensina sobre os animais ameaçados de extinção?">
+                        Como funciona o aplicativo?
+                        <span>↗</span>
+                    </button>
+
+                    <button type="button" class="ai-chat-suggestion"
+                        data-question="O que podemos fazer para ajudar na preservação dos animais ameaçados?">
+                        Como ajudar na preservação?
+                        <span>↗</span>
+                    </button>
+                </div>
+            </div>
+
+            <form class="ai-chat-form" id="ai-chat-form">
+                <label class="ai-chat-sr-only" for="ai-chat-input">
+                    Digite sua pergunta
+                </label>
+
+                <textarea id="ai-chat-input" name="question"
+                    placeholder="Faça uma pergunta sobre o projeto..."
+                    rows="1" maxlength="1000" required></textarea>
+
+                <button type="submit" id="ai-chat-send"
+                    aria-label="Enviar pergunta" disabled>
+                    <svg viewBox="0 0 24 24" fill="none">
+                        <path d="M12 19V5m-7 7 7-7 7 7"
+                            stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </form>
+
+            <div class="ai-chat-footer">
+                <span>
+                    <svg viewBox="0 0 24 24" fill="none">
+                        <rect x="5" y="10" width="14" height="11" rx="2"
+                            stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M8 10V7a4 4 0 0 1 8 0v3"
+                            stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round"/>
+                    </svg>
+                    Processamento local após o download do modelo
+                </span>
+                <span class="ai-chat-powered">IA EXPERIMENTAL</span>
+            </div>
+
+        </div>
+
+        <p class="ai-chat-disclaimer">
+            As respostas são geradas por inteligência artificial e podem
+            conter imprecisões. Consulte fontes científicas para confirmar
+            informações sobre conservação.
+        </p>
+
+    </div>
+</section>
+<!-- FIM DO CHAT IA -->
+
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <!-- MARCA -->
+
+        <div class="footer-brand">
+
+            <div class="footer-logo">
+                <a href="index.html" class="logo">
+                <img src="assets/img/logo.svg" alt="Extinção Zero">
+            </a>
+            </div>
+
+            <p>
+                Projeto acadêmico da Fatec Carapicuíba.<br>
+                Conhecer é o primeiro passo para preservar.
+            </p>
+
+        </div>
+
+
+        <!-- NAVEGAÇÃO -->
+
+        <div class="footer-navigation">
+
+            <h4>NAVEGAÇÃO</h4>
+
+            <div class="footer-links">
+
+                <div>
+                    <a href="index.html">Início</a>
+                    <a href="#especies">Espécies</a>
+                    <a href="#dados">Dados</a>
+                    <a href="loja.html">Loja</a>
+                </div>
+
+                <div>
+                    <a href="app.html">O App</a>
+                    <a href="#biomas">Biomas</a>
+                    <a href="preservar.html">Preservar</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FONTES -->
+
+        <div class="footer-sources">
+
+            <h4>FONTES DE DADOS</h4>
+
+            <p>
+                ICMBio/MMA (Portaria nº 148/2022) · IUCN Red List 2024 ·
+                IBGE (2019) · INPE/PRODES (2024) · MapBiomas (2023)
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- LINHA INFERIOR -->
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Extinção Zero — Fatec Carapicuíba.
+            Projeto educativo sem fins lucrativos.
+        </p>
+
+        <p>
+            Dados com finalidade educativa.
+            Consulte sempre as fontes originais.
+        </p>
+
+    </div>
+
+</footer>
+
+
+    <script src="js/common.js"></script>
+    <script src="js/home.js"></script>
+    <script type="module" src="js/ai-chat.js"></script>
+
+</body>
+</html>
